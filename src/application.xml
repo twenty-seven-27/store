@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+  <bean id="CategoryDao" class="cn.ecit.store.dao.daoImpl.CategoryDaoImpl"/>
+  <bean id="UserDao" class="cn.ecit.store.dao.daoImpl.UserDaoImpl"/>
+  <bean id="UserService" class="cn.ecit.store.service.serviceImpl.UserServiceImpl"/>
+</beans>
